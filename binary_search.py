@@ -51,40 +51,5 @@ new positions of L M H are
       M
       
 Since mid element is equal to the reqd element, answer is element is found 
-sample input:
-1 2 3 4 5
-6
-
-sample output:
-Element not found
-
-Explanation:
-Initially low is 0 and high is 5
-When we go to bin_search function, the array "new" is like this
- 
-1 2 3 4 5
-L   M   H
- 
-when ele != mid,
-
-new positions of L M H are
-
-1 2 3 4 5
-      L H
-      M
-     
-even now mid!=ele
-
-Hence, new L M H are
-
-1 2 3 4 5
-        L
-        M
-        H
-
-even now it is not found.
-
-Hence !
-
 
 '''
